@@ -6,4 +6,36 @@
 |홈|로그인|파트|쇼핑|회원가입|인테리어|
 ### 🔧 기술 스택
 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">  <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
-### ✅ Commit 규칙
+### 📂 폴더 구조
+```
+├── README.md
+├── index.js
+├── style.css
+├── index.html
+├── assets
+│
+└── pages
+     ├── login
+     │     ├── index.js
+     │     ├── style.css
+     │     ├── index.html
+     │     └── assets
+     │
+     ├── signup
+     │     ├── index.js
+     │     ├── style.css
+     │     ├── index.html
+     │     └── assets
+     │
+     ├── shopping
+     │     ├── index.js
+     │     ├── style.css
+     │     ├── index.html
+     │     └── assets
+     │
+     └── interior
+           ├── index.js
+           ├── style.css
+           ├── index.html
+           └── assets
+```
