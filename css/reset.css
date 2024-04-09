@@ -18,6 +18,13 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+html{
+	font-family: 'Pretendard Variable', sans-serif;
+    letter-spacing: -0.3px;
+    -webkit-font-smoothing: antialiased;
+	color: #424242;
+    background: #fff;
+}
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
