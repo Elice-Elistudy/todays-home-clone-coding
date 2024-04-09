@@ -12,233 +12,40 @@
 </head>
 <body>
     <div class="home">
-        <div class="layout">
-            <header class="header">
-                <div class="sticky-container" style="height: 50.75px;">
-                    <div class="main-nav" style="position: fixed; z-index: 1102; transition: top 0.1s ease 0s; top: 0px; width: 100%;">
-                        <div class="main-nav-layout">
-                            <div></div>
-                            <div class="home-logo">
-                                <a class="home-logo-link" aria-label="오늘의집 로고" href="/">
-                                    <svg class="home-logo-icon" xmlns="http://www.w3.org/2000/svg" width="74" height="30" fill="none" viewBox="0 0 74 30">
-                                        <path fill="currentColor" fill-rule="evenodd" d="M14.2 25.17H9.28V20.7a1.45 1.45 0 00-2.9 0v4.47H1.44a1.45 1.45 0 100 2.9H14.2a1.45 1.45 0 000-2.9zM4.5 9.15c0-4.6 2.08-5.28 3.33-5.28 1.24 0 3.33.69 3.33 5.28v.36c0 4.6-2.09 5.28-3.33 5.28-1.25 0-3.34-.69-3.34-5.28v-.36zm3.33 8.54c3.84 0 6.23-3.13 6.23-8.18v-.36c0-5.05-2.39-8.18-6.23-8.18-3.85 0-6.24 3.13-6.24 8.18v.36c0 5.05 2.39 8.18 6.24 8.18zM33.37 10.35H17.81a1.45 1.45 0 000 2.9h15.56a1.45 1.45 0 100-2.9zM31.82 25.84c-7.08 1.84-9.45.8-10.14.26-.45-.35-.65-.8-.65-1.48v-.87h10.25c.8 0 1.46-.65 1.46-1.45v-5.08c0-.8-.65-1.45-1.46-1.45h-11.7a1.45 1.45 0 100 2.9h10.25v2.18H19.57c-.8 0-1.45.65-1.45 1.45v2.32a4.6 4.6 0 001.78 3.78c1.2.92 2.94 1.39 5.21 1.39 2.05 0 4.54-.38 7.44-1.13a1.45 1.45 0 10-.73-2.82zM20.3 7.83h10.82a1.45 1.45 0 100-2.9h-9.36V1.44a1.45 1.45 0 10-2.9 0v4.93c0 .8.65 1.45 1.45 1.45z" clip-rule="evenodd"></path>
-                                        <rect width="3" height="15" x="70" fill="currentColor" rx="1.5"></rect>
-                                        <path fill="currentColor" fill-rule="evenodd" d="M64.5 13.28a1.45 1.45 0 002.73-1c-.05-.13-1-2.68-3.38-4.5l3.7-4.1a1.45 1.45 0 00-1.09-2.42h-9.05a1.45 1.45 0 100 2.9h5.8l-6.88 7.64a1.45 1.45 0 102.16 1.95l3.41-3.8a8.02 8.02 0 012.6 3.33zM69.56 26.52h-7.01a.82.82 0 01-.82-.82v-1.95h8.65v1.95c0 .45-.37.82-.82.82zm2.27-9.37c-.8 0-1.45.65-1.45 1.45v2.25h-8.65V18.6a1.45 1.45 0 10-2.9 0v7.1a3.72 3.72 0 003.72 3.72h7.01a3.72 3.72 0 003.72-3.72v-7.1c0-.8-.65-1.45-1.45-1.45zM42.46 3.87c2.22 0 2.33 4.24 2.33 5.08 0 .85-.11 5.09-2.33 5.09-2.21 0-2.32-4.24-2.32-5.09 0-.84.11-5.08 2.32-5.08zm0 13.07c1.76 0 3.23-.93 4.14-2.62.71-1.34 1.1-3.2 1.1-5.37 0-2.16-.39-4.02-1.1-5.36A4.59 4.59 0 0042.46.97c-1.75 0-3.22.93-4.13 2.62-.72 1.34-1.1 3.2-1.1 5.36 0 2.17.38 4.03 1.1 5.37a4.59 4.59 0 004.13 2.62z" clip-rule="evenodd"></path>
-                                        <path fill="currentColor" fill-rule="evenodd" d="M51.4.49c-.8 0-1.45.65-1.45 1.45v17.78c-1.93.6-5.75 1.12-10.38 1.12h-2.2a1.45 1.45 0 000 2.91h2.2c2.64 0 7.21-.23 10.38-1.02v4.84a1.45 1.45 0 002.9 0V1.94c0-.8-.65-1.45-1.45-1.45z" clip-rule="evenodd"></path>
-                                    </svg>
-                                </a>
-                            </div>
-                            <div class="page-nav-layout">
-                                <a class="community-link" href="/">
-                                    <span class="community-icon">커뮤니티</span>
-                                </a>
-                                <a class="shopping-link" href="/">
-                                    <span class="shopping-icon">쇼핑</span>
-                                </a>
-                                <a class="interior-link" href="/">
-                                    <span class="interior-icon">인테리어/생활</span>
-                                </a>
-                            </div>
-                            <div class="user-nav">
-                                <div class="user-nav-layout">
-                                    <div class="global-search">
-                                        <div id="global-search-combobox" role="combobox" aria-expanded="false" aria-haspopup="listbox" class="global-search-combobox">
-                                            <div class="global-search-layout">
-                                                <img class="global-search-icon" src="./assets/search-icon.png">
-                                                <input type="text" placeholder="통합검색" autocomplete="off" aria-autocomplete="list" class="global-search-input" value="">
-                                                <div class="global-search-empty"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div></div>
-                                    <a aria-label="장바구니 페이지 링크 버튼" class="shopping-cart-link" href="/cart">
-                                        <img class="shopping-cart-icon" src="./assets/cart-icon.png">
-                                    </a>
-                                    <div class="login-write-nav-layout">
-                                        <div class="login-signup-layout">
-                                            <a class="login-signup-link" href="/login">로그인</a>
-                                            <a class="login-signup-link" href="/signup">회원가입</a>
-                                            <a class="login-signup-link" href="/">고객센터</a>
-                                        </div>
-                                        <span class="write-layout">
-                                            <button type="button" class="write-btn">
-                                                <span class="write-icon">글쓰기</span>
-                                                <img class="write-drawer-icon" src="./assets/write-drawer-icon.png">
-                                            </button>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        <header class="header">
+            <div class="main-nav">
+                <div class="home-logo">
+                    <a class="home-logo-link" aria-label="오늘의집 로고" href="/">
+                        <svg class="home-logo-icon" xmlns="http://www.w3.org/2000/svg" width="74" height="30" fill="none" viewBox="0 0 74 30">
+                            <path fill="currentColor" fill-rule="evenodd" d="M14.2 25.17H9.28V20.7a1.45 1.45 0 00-2.9 0v4.47H1.44a1.45 1.45 0 100 2.9H14.2a1.45 1.45 0 000-2.9zM4.5 9.15c0-4.6 2.08-5.28 3.33-5.28 1.24 0 3.33.69 3.33 5.28v.36c0 4.6-2.09 5.28-3.33 5.28-1.25 0-3.34-.69-3.34-5.28v-.36zm3.33 8.54c3.84 0 6.23-3.13 6.23-8.18v-.36c0-5.05-2.39-8.18-6.23-8.18-3.85 0-6.24 3.13-6.24 8.18v.36c0 5.05 2.39 8.18 6.24 8.18zM33.37 10.35H17.81a1.45 1.45 0 000 2.9h15.56a1.45 1.45 0 100-2.9zM31.82 25.84c-7.08 1.84-9.45.8-10.14.26-.45-.35-.65-.8-.65-1.48v-.87h10.25c.8 0 1.46-.65 1.46-1.45v-5.08c0-.8-.65-1.45-1.46-1.45h-11.7a1.45 1.45 0 100 2.9h10.25v2.18H19.57c-.8 0-1.45.65-1.45 1.45v2.32a4.6 4.6 0 001.78 3.78c1.2.92 2.94 1.39 5.21 1.39 2.05 0 4.54-.38 7.44-1.13a1.45 1.45 0 10-.73-2.82zM20.3 7.83h10.82a1.45 1.45 0 100-2.9h-9.36V1.44a1.45 1.45 0 10-2.9 0v4.93c0 .8.65 1.45 1.45 1.45z" clip-rule="evenodd"></path>
+                            <rect width="3" height="15" x="70" fill="currentColor" rx="1.5"></rect><path fill="currentColor" fill-rule="evenodd" d="M64.5 13.28a1.45 1.45 0 002.73-1c-.05-.13-1-2.68-3.38-4.5l3.7-4.1a1.45 1.45 0 00-1.09-2.42h-9.05a1.45 1.45 0 100 2.9h5.8l-6.88 7.64a1.45 1.45 0 102.16 1.95l3.41-3.8a8.02 8.02 0 012.6 3.33zM69.56 26.52h-7.01a.82.82 0 01-.82-.82v-1.95h8.65v1.95c0 .45-.37.82-.82.82zm2.27-9.37c-.8 0-1.45.65-1.45 1.45v2.25h-8.65V18.6a1.45 1.45 0 10-2.9 0v7.1a3.72 3.72 0 003.72 3.72h7.01a3.72 3.72 0 003.72-3.72v-7.1c0-.8-.65-1.45-1.45-1.45zM42.46 3.87c2.22 0 2.33 4.24 2.33 5.08 0 .85-.11 5.09-2.33 5.09-2.21 0-2.32-4.24-2.32-5.09 0-.84.11-5.08 2.32-5.08zm0 13.07c1.76 0 3.23-.93 4.14-2.62.71-1.34 1.1-3.2 1.1-5.37 0-2.16-.39-4.02-1.1-5.36A4.59 4.59 0 0042.46.97c-1.75 0-3.22.93-4.13 2.62-.72 1.34-1.1 3.2-1.1 5.36 0 2.17.38 4.03 1.1 5.37a4.59 4.59 0 004.13 2.62z" clip-rule="evenodd"></path>
+                            <path fill="currentColor" fill-rule="evenodd" d="M51.4.49c-.8 0-1.45.65-1.45 1.45v17.78c-1.93.6-5.75 1.12-10.38 1.12h-2.2a1.45 1.45 0 000 2.91h2.2c2.64 0 7.21-.23 10.38-1.02v4.84a1.45 1.45 0 002.9 0V1.94c0-.8-.65-1.45-1.45-1.45z" clip-rule="evenodd"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="page-nav">
+                    <a class="page-nav-link" href="/">커뮤니티</a>
+                    <a class="page-nav-link" href="/shopping">쇼핑</a>
+                    <a class="page-nav-link" href="/interior">인테리어/생활</a>
+                </div>
+                <div class="user-nav">
+                    <div>
+                        <input>
+                    </div>
+                    <div>
+                        <a><img class="cart-icon" src="./assets/cart-icon.png"></a>
+                    </div>
+                    <div>
+                        <a>로그인</a>
+                        <a>회원가입</a>
+                        <a>글쓰기</a>
                     </div>
                 </div>
-                <div class="sticky-container" style="height: 40.75px;">
-                    <div class="keyword-nav" style="position: fixed; z-index: 1101; transition: top 0.1s ease 0s; top: 50.75px; width: 100%;">
-                        <div class="keyword-nav-layout">
-
-                            <!-- 키워드 네비게이션, 실시간 검색어 -->
-
-                            <!-- <div class="css-iaoe7b e13dnggl0">
-                                <nav class="e13dnggl2 css-4mosf0">
-                                    <span class="css-1ecsbek">
-                                        <div class="css-gth0vq">
-                                            <a class="efehl10 css-1kqrne7" href="/">
-                                                <div class="css-yc5pvq">
-                                                    <p class="css-jqbwab">홈</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </span>
-                                    <span class="css-1ecsbek">
-                                        <div class="css-gth0vq">
-                                            <a class="efehl10 css-gp7ln3" href="https://contents.ohou.se/topics/recommend">
-                                                <div class="css-yc5pvq">
-                                                    <p class="css-f87fft">추천</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </span>
-                                    <span class="css-1ecsbek">
-                                        <div class="css-gth0vq">
-                                            <a class="efehl10 css-gp7ln3" href="https://contents.ohou.se/topics/hashtag-channel">
-                                                <div class="css-yc5pvq">
-                                                    <p class="css-f87fft">#채널</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </span>
-                                    <span class="css-1ecsbek">
-                                        <div class="css-gth0vq">
-                                            <a class="efehl10 css-gp7ln3" href="https://contents.ohou.se/projects">
-                                                <div class="css-yc5pvq">
-                                                    <p class="css-f87fft">집들이</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </span>
-                                    <span class="css-1ecsbek">
-                                        <div class="css-gth0vq">
-                                            <a class="efehl10 css-gp7ln3" href="/contents/card_collections">
-                                                <div class="css-yc5pvq">
-                                                    <p class="css-f87fft">집사진</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </span>
-                                    <span class="css-1ecsbek">
-                                        <div class="css-gth0vq">
-                                            <a class="efehl10 css-gp7ln3" href="/interior3ds">
-                                                <div class="css-yc5pvq">
-                                                    <p class="css-f87fft">3D인테리어</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </span>
-                                    <span class="css-1ecsbek">
-                                        <div class="css-gth0vq">
-                                            <a class="efehl10 css-gp7ln3" href="https://contents.ohou.se/topics/living">
-                                                <div class="css-yc5pvq">
-                                                    <p class="css-f87fft">살림수납</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </span>
-                                    <span class="css-1ecsbek">
-                                        <div class="css-gth0vq">
-                                            <a class="efehl10 css-gp7ln3" href="https://contents.ohou.se/topics/collectible">
-                                                <div class="css-yc5pvq">
-                                                    <p class="css-f87fft">콜렉터블</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </span>
-                                    <span class="css-1ecsbek">
-                                        <div class="css-gth0vq">
-                                            <a class="efehl10 css-gp7ln3" href="https://contents.ohou.se/topics/cook">
-                                                <div class="css-yc5pvq">
-                                                    <p class="css-f87fft">홈스토랑</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </span>
-                                    <span class="css-1ecsbek">
-                                        <div class="css-gth0vq">
-                                            <a class="efehl10 css-gp7ln3" href="https://contents.ohou.se/topics/hot_place">
-                                                <div class="css-yc5pvq">
-                                                    <p class="css-f87fft">핫플레이스</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </span>
-                                    <span class="css-1ecsbek">
-                                        <div class="css-gth0vq">
-                                            <a class="efehl10 css-gp7ln3" href="https://contents.ohou.se/topics/child_care">
-                                                <div class="css-yc5pvq">
-                                                    <p class="css-f87fft">육아</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </span>
-                                    <span class="css-1ecsbek">
-                                        <div class="css-gth0vq">
-                                            <a class="efehl10 css-gp7ln3" href="https://contents.ohou.se/topics/planterior">
-                                                <div class="css-yc5pvq">
-                                                    <p class="css-f87fft">플랜테리어</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </span>
-                                    <span class="css-1ecsbek">
-                                        <div class="css-gth0vq">
-                                            <a class="efehl10 css-gp7ln3" href="https://contents.ohou.se/topics/pets">
-                                                <div class="css-yc5pvq">
-                                                    <p class="css-f87fft">반려동물</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </span>
-                                    <span class="css-1ecsbek">
-                                        <div class="css-gth0vq">
-                                            <a class="efehl10 css-gp7ln3" href="https://contents.ohou.se/topics/camping">
-                                                <div class="css-yc5pvq">
-                                                    <p class="css-f87fft">캠핑</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </span>
-                                    <span class="css-1ecsbek">
-                                        <div class="css-gth0vq">
-                                            <a class="efehl10 css-gp7ln3" href="https://contents.ohou.se/topics/hobby">
-                                                <div class="css-yc5pvq">
-                                                    <p class="css-f87fft">취미</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </span>
-                                    <span class="css-1ecsbek">
-                                        <div class="css-gth0vq">
-                                            <a class="efehl10 css-gp7ln3" href="/competitions/feed">
-                                                <div class="css-yc5pvq">
-                                                    <p class="css-f87fft">이벤트</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </span>
-                                </nav>
-                                <span class="css-1amee4m">
-                                    <button type="button" class="css-157vnri eld8vir4">
-                                        <span class="eld8vir2 _chevron_down_12 css-nk01k3"></span>
-                                    </button>
-                                </span>
-                            </div> -->
-                            
-                        </div>
-                    </div>
-                </div>
-            </header>
-            <div></div>
-            <footer></footer>
-        </div>
+            </div>
+            <div class="keyword-nav">키워드 네비</div>
+        </header>
+        <div>asdf</div>
+        <footer>asdf</footer>
     </div>
 </body>
 </html>

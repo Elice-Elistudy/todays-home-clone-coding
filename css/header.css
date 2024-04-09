@@ -1,14 +1,53 @@
-.global-search-icon{
-    height: 24px;
-    width: 24px;
+.header{
+    display: flex;
+    flex-direction: column;
 }
 
-.shopping-cart-icon{
-    height: 24px;
-    width: 24px;
+.main-nav{
+    height: 80.75px;
+    padding: 10px 60px;
+    display: flex;
+    flex-direction: row;
 }
 
-.write-drawer-icon{
-    height: 18px;
-    width: 18px;
+.home-logo{
+    margin-right: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.home-logo-link{
+
+}
+
+.home-logo-icon{
+
+}
+
+.page-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.page-nav-link{
+    margin: 0 10px;
+    padding: 21px 5px 15px;
+}
+
+.user-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.keyword-nav{
+    height: 51.75px;
+    padding: 0 60px;
+}
+
+.cart-icon{
+    height: 24px;
+    width: 24px;
 }
