@@ -1,0 +1,255 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+a:visited { 
+  text-decoration: none;
+}
+.header-layout{
+  height: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 1256px;
+  margin: 0 auto;
+  padding: 10px 60px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  line-height: 0;
+}
+.test{
+  margin-right: 35px;
+  position: static;
+  transform: none;
+  flex: 0 0 auto;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+}
+
+.test2{
+  display: block;
+  flex: 1 1 0px;
+  white-space: nowrap;
+}  
+
+.test3{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  line-height: 0;
+}
+.home-logo{
+  border: none;
+  background: none;
+  display: inline-flex;
+  align-items: center;
+  margin: -4px;
+  padding: 4px;
+  font-size: 0;
+  line-height: 0;
+  color: #212629;
+  outline: none;
+}
+
+.page-link{
+  border: none;
+  background: none;
+  font: inherit;
+  position: relative;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 21px 5px 15px;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: bold;
+  color: #2F3438;
+  outline: none;
+}
+
+.page-link-selected{
+  border: none;
+  background: none;
+  font: inherit;
+  position: relative;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 21px 5px 15px;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: bold;
+  color: #35C5F0;
+}
+
+.page-link-selected,
+.page-link {
+  display: inline-block; /* 요소를 블록 수준으로 표시합니다. */
+  font-size: 16px;
+  font-weight: bold;
+  color: #2F3438;
+  text-decoration: none;
+}
+
+.page-link-name{
+  display: inline-block;
+  margin: -4px;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.global-search-combobox{
+  display: flex;
+  margin-right: 14px;
+  width: 100%;
+}
+
+.global-search-combobox-layout{
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
+  box-sizing: border-box;
+  border: 1px solid #DADDE0;
+  border-radius: 4px;
+  height: 40px;
+  padding: 0 14px;
+  width: 100%;
+}
+
+.search-icon{
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 1;
+  vertical-align: middle;
+  padding-right: 6px;
+}
+
+.search-input{
+  width: 100%;
+  box-sizing: border-box;
+  flex: 1 0 0%;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  height: 100%;
+  color: #2F3438;
+  outline: none;
+  font-size: 16px;
+  line-height: 24px;
+  padding-right: 6px;
+}
+
+.cart-link{
+  position: relative;
+  display: inline-block;
+  padding: 6px;
+  margin: 3px 1px;
+  color: #2F3438;
+  line-height: 0;
+  outline: none;
+}
+
+.cart-icon{
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+}
+
+.user-nav{
+  display: flex;
+  align-items: center;
+}
+
+.login-nav{
+  display: flex;
+  margin: 0 10px 0 8px;
+  white-space: nowrap;
+}
+
+.login-signup-link{
+  font-family: none;
+  font-size: 14px;
+  line-height: 18px;
+  color: #2F3438;
+  padding: 0 10px;
+  border-left: 1px solid #EAEDEF;
+}
+
+.login-signup-link:first-of-type{
+  border-left: none;
+}
+
+.login-signup-link,
+.user-center-link {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.user-center-link{
+  font-family: none;
+  font-size: 14px;
+  line-height: 18px;
+  color: #2F3438;
+  padding: 0 10px;
+  border-left: 1px solid #EAEDEF;
+}
+
+.write-nav{
+  line-height: 0;
+}
+
+.write-button{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 14px;
+  line-height: 18px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 40px;
+  border-radius: 4px;
+  padding: 0 16px;
+  font-weight: 400;
+  box-sizing: border-box;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #35C5F0;
+  outline: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+@media (hover: hover) and (pointer: fine)
+{
+  .write-button:hover, .write-button:active {
+      background-color: #009FCE;
+  }
+}
+
+
+.write-link{
+  margin-right: 6px;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-family: none;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: white;
+}
+
+.write-drawer-icon{
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
