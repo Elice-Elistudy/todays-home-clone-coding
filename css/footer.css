@@ -1,0 +1,196 @@
+.footer{
+  font-family: none;
+  margin-top: auto;
+  flex: 0 0 auto;
+  z-index: 100;
+  padding: 40px 0px;
+  background-color: rgb(247, 249, 250);
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+}
+.footer a:hover{
+  text-decoration: underline;
+}
+.footer-layout{
+  max-width: 1256px;
+  margin: 0px auto;
+  padding: 0px 60px;
+  box-sizing: border-box;
+  font-size: 12px;
+  line-height: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr 1px 2fr;
+  column-gap: 30px;
+}
+.footer-left{
+  color: rgb(47, 52, 56);
+  font-size: 12px;
+  line-height: 16px;
+}
+.css-j2at52 {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.css-1vwhs16 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.css-w9u1sc {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1;
+}
+.css-12s9gc6 {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 20px 0px 8px;
+}
+.css-11t5mhv {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  white-space: nowrap;
+  margin-right: 6px;
+}
+.css-7c0zb9 {
+  font-size: 14px;
+  line-height: 20px;
+}
+.css-1ltbepj {
+  padding-right: 10px;
+}
+.css-1ltbepj {
+  font-size: 12px;
+  line-height: 20px;
+  white-space: pre-wrap;
+  margin-bottom: 12px;
+}
+.css-1wqo8tu {
+  position: relative;
+  padding-left: 20px;
+}
+.css-4ja1w6 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 12px;
+}
+.css-1orlevo {
+  margin: 0px;
+  background: none;
+  font-style: inherit;
+  font-variant: inherit;
+  font-stretch: inherit;
+  font-family: inherit;
+  font-optical-sizing: inherit;
+  font-kerning: inherit;
+  font-feature-settings: inherit;
+  font-variation-settings: inherit;
+  font-size: 14px;
+  line-height: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  border-radius: 4px;
+  padding: 0px 8px;
+  font-weight: 400;
+  box-sizing: border-box;
+  text-align: center;
+  color: rgb(47, 52, 56);
+  border: 1px solid rgb(218, 221, 224);
+  width: fit-content;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.footer-middle{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, min-content);
+  grid-auto-flow: column;
+  gap: 20px 10px;
+  font-size: 12px;
+  line-height: 16px;
+}
+.css-bby21c {
+  font-size: 12px;
+  line-height: 16px;
+  display: inline-block;
+  color: rgb(47, 52, 56);
+  white-space: nowrap;
+}
+.footer-right{
+  font-size: 10px;
+  line-height: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: rgb(130, 140, 148);
+}
+.css-15bx5k {
+  overflow-x: hidden;
+}
+.css-1dg1yub {
+  margin-left: -9px;
+}
+.css-1jsgrdm {
+  font-size: 12px;
+  line-height: 20px;
+  display: inline-block;
+  white-space: nowrap;
+}
+.css-5hz1ob {
+  margin: 0px 4px;
+}
+.css-kkzzbm {
+  font-weight: 700;
+  color: rgb(130, 140, 148);
+}
+.css-1df9zdm {
+  display: grid;
+  column-gap: 6px;
+  grid-template-columns: max-content min-content min-content;
+}
+.css-4fh6cu {
+  display: flex;
+  min-width: 102px;
+  height: 38px;
+  padding: 0px 6px;
+  gap: 6px;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+.css-1e1ncky {
+  border: none;
+}
+.css-lkbpts {
+  font-size: 10px;
+  line-height: 14px;
+  color: rgb(130, 140, 148);
+}
+.css-11x2tab {
+  display: inline-block;
+  margin-right: 12px;
+}
+.css-8n6bc3 {
+  vertical-align: top;
+  color: rgb(130, 140, 148);
+}
+.footer-line-1{
+  width: 1px;
+  background-color: rgb(234, 237, 239);
+}
+.footer-line-2{
+  width: 1px;
+  background-color: rgb(234, 237, 239);
+}
