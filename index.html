@@ -8,204 +8,80 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css//header.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <script src="index.js"></script>
 
     <style>
-        .footer{
-            font-family: none;
-            margin-top: auto;
-            flex: 0 0 auto;
-            z-index: 100;
-            padding: 40px 0px;
-            background-color: rgb(247, 249, 250);
+        .layout-navigation-secondary{
+            background: #FFFFFF;
+            border-bottom: 1px solid #EAEDEF;
+        }
+        .second-nav-layout{
+            padding: 0 16px;
             box-sizing: border-box;
             position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-sizing: border-box;
+            overflow: auto;
+            overflow: initial;
+            padding-left: 0;
+        }
+        .keyword-nav-layout{
+            flex: 1 0 0;
+            display: flex;
+            justify-content: space-between;
+            overflow: hidden;
+        }
+        .keyword-nav{
+            display: flex;
+            align-items: stretch;
+            overflow-x: auto;
+            white-space: nowrap;
+            margin: 0 -5px;
+            height: 51px;
+        }
+
+        .keyword-link-span{
+            height: inherit;
             display: block;
         }
-        .footer a:hover{
-            text-decoration: underline;
+        .keyword-link-div{
+            height: inherit;
         }
-        .footer-layout{
-            max-width: 1256px;
-            margin: 0px auto;
-            padding: 0px 60px;
-            box-sizing: border-box;
-            font-size: 12px;
-            line-height: 16px;
-            display: grid;
-            grid-template-columns: 1fr 1px 1fr 1px 2fr;
-            column-gap: 30px;
-        }
-        .footer-left{
-            color: rgb(47, 52, 56);
-            font-size: 12px;
-            line-height: 16px;
-        }
-        .css-j2at52 {
-            display: flex;
-            align-items: center;
-            gap: 2px;
-        }
-        .css-1vwhs16 {
-            font-size: 18px;
-            line-height: 24px;
-            font-weight: 700;
-            display: flex;
-            -webkit-box-align: center;
-            align-items: center;
-        }
-        .css-w9u1sc {
+        .keyword-link{
             display: inline-block;
-            font-size: 12px;
-            line-height: 1;
-        }
-        .css-12s9gc6 {
-            display: flex;
-            -webkit-box-align: center;
-            align-items: center;
-            margin: 20px 0px 8px;
-        }
-        .css-11t5mhv {
-            font-size: 16px;
-            line-height: 20px;
-            font-weight: 700;
-            white-space: nowrap;
-            margin-right: 6px;
-        }
-        .css-7c0zb9 {
-            font-size: 14px;
-            line-height: 20px;
-        }
-        .css-1ltbepj {
-            padding-right: 10px;
-        }
-        .css-1ltbepj {
-            font-size: 12px;
-            line-height: 20px;
-            white-space: pre-wrap;
-            margin-bottom: 12px;
-        }
-        .css-1wqo8tu {
-            position: relative;
-            padding-left: 20px;
-        }
-        .css-4ja1w6 {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-            margin-top: 12px;
-        }
-        .css-1orlevo {
-            margin: 0px;
+            margin: 0;
+            padding: 0;
+            border: none;
             background: none;
-            font-style: inherit;
-            font-variant: inherit;
-            font-stretch: inherit;
-            font-family: inherit;
-            font-optical-sizing: inherit;
-            font-kerning: inherit;
-            font-feature-settings: inherit;
-            font-variation-settings: inherit;
+            font: inherit;
+            position: relative;
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: center;
+            vertical-align: top;
+            text-align: center;
+            box-sizing: border-box;
+            padding: 12px 6px;
+            height: inherit;
+            outline: none;
+        }
+        .keyword-div{
+            padding: 4px;
+            margin: -4px;
+        }
+        .keyword{
             font-size: 14px;
             line-height: 20px;
-            display: inline-flex;
-            justify-content: center;
-            align-items: center;
-            height: 32px;
-            border-radius: 4px;
-            padding: 0px 8px;
-            font-weight: 400;
-            box-sizing: border-box;
-            text-align: center;
-            color: rgb(47, 52, 56);
-            border: 1px solid rgb(218, 221, 224);
-            width: fit-content;
-            white-space: nowrap;
+            position: relative;
+            font-weight: 700;
+            color: #2F3438;
             cursor: pointer;
         }
-        .footer-middle{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(6, min-content);
-            grid-auto-flow: column;
-            gap: 20px 10px;
-            font-size: 12px;
-            line-height: 16px;
-        }
-        .css-bby21c {
-            font-size: 12px;
-            line-height: 16px;
-            display: inline-block;
-            color: rgb(47, 52, 56);
-            white-space: nowrap;
-        }
-        .footer-right{
-            font-size: 10px;
-            line-height: 14px;
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-            color: rgb(130, 140, 148);
-        }
-        .css-15bx5k {
-            overflow-x: hidden;
-        }
-        .css-1dg1yub {
-            margin-left: -9px;
-        }
-        .css-1jsgrdm {
-            font-size: 12px;
-            line-height: 20px;
-            display: inline-block;
-            white-space: nowrap;
-        }
-        .css-5hz1ob {
-            margin: 0px 4px;
-        }
-        .css-kkzzbm {
-            font-weight: 700;
-            color: rgb(130, 140, 148);
-        }
-        .css-1df9zdm {
-            display: grid;
-            column-gap: 6px;
-            grid-template-columns: max-content min-content min-content;
-        }
-        .css-4fh6cu {
-            display: flex;
-            min-width: 102px;
-            height: 38px;
-            padding: 0px 6px;
-            gap: 6px;
-            -webkit-box-align: center;
-            align-items: center;
-            -webkit-box-pack: center;
-            justify-content: center;
-            border: 1px solid rgba(0, 0, 0, 0.08);
-        }
-        .css-1e1ncky {
-            border: none;
-        }
-        .css-lkbpts {
-            font-size: 10px;
-            line-height: 14px;
-            color: rgb(130, 140, 148);
-        }
-        .css-11x2tab {
-            display: inline-block;
-            margin-right: 12px;
-        }
-        .css-8n6bc3 {
-            vertical-align: top;
-            color: rgb(130, 140, 148);
-        }
-        .footer-line-1{
-            width: 1px;
-            background-color: rgb(234, 237, 239);
-        }
-        .footer-line-2{
-            width: 1px;
-            background-color: rgb(234, 237, 239);
+        .keyword:hover{
+            color: #35C5F0;
         }
     </style>
 </head>
@@ -265,6 +141,174 @@
         </div>
     </div>
     
+    <div class="sticky-container" style="height: 52px;">
+        <div class="layout-navigation-secondary" style="position: fixed; z-index:1101; transition: top 0.1s ease 0s; top: 81px; width: 100%;">
+            <div class="second-nav-layout">
+                <div class="keyword-nav-layout">
+                    <nav class="keyword-nav">
+                        <span class="keyword-link-span">
+                            <div class="keyword-link-div">
+                                <a class="keyword-link">
+                                    <div class="keyword-div">
+                                        <p class="keyword" style="color:#35C5F0;">홈</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </span>
+                        <span class="keyword-link-span">
+                            <div class="keyword-link-div">
+                                <a class="keyword-link">
+                                    <div class="keyword-div">
+                                        <p class="keyword">추천</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </span>
+                        <span class="keyword-link-span">
+                            <div class="keyword-link-div">
+                                <a class="keyword-link">
+                                    <div class="keyword-div">
+                                        <p class="keyword">#채널</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </span>
+                        <span class="keyword-link-span">
+                            <div class="keyword-link-div">
+                                <a class="keyword-link">
+                                    <div class="keyword-div">
+                                        <p class="keyword">집들이</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </span>
+                        <span class="keyword-link-span">
+                            <div class="keyword-link-div">
+                                <a class="keyword-link">
+                                    <div class="keyword-div">
+                                        <p class="keyword">집사진</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </span>
+                        <span class="keyword-link-span">
+                            <div class="keyword-link-div">
+                                <a class="keyword-link">
+                                    <div class="keyword-div">
+                                        <p class="keyword">3D인테리어</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </span>
+                        <span class="keyword-link-span">
+                            <div class="keyword-link-div">
+                                <a class="keyword-link">
+                                    <div class="keyword-div">
+                                        <p class="keyword">살림수납</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </span>
+                        <span class="keyword-link-span">
+                            <div class="keyword-link-div">
+                                <a class="keyword-link">
+                                    <div class="keyword-div">
+                                        <p class="keyword">콜렉터블</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </span>
+                        <span class="keyword-link-span">
+                            <div class="keyword-link-div">
+                                <a class="keyword-link">
+                                    <div class="keyword-div">
+                                        <p class="keyword">홈스토랑</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </span>
+                        <span class="keyword-link-span">
+                            <div class="keyword-link-div">
+                                <a class="keyword-link">
+                                    <div class="keyword-div">
+                                        <p class="keyword">핫플레이스</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </span>
+                        <span class="keyword-link-span">
+                            <div class="keyword-link-div">
+                                <a class="keyword-link">
+                                    <div class="keyword-div">
+                                        <p class="keyword">육아</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </span>
+                        <span class="keyword-link-span">
+                            <div class="keyword-link-div">
+                                <a class="keyword-link">
+                                    <div class="keyword-div">
+                                        <p class="keyword">플랜테리어</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </span>
+                        <span class="keyword-link-span">
+                            <div class="keyword-link-div">
+                                <a class="keyword-link">
+                                    <div class="keyword-div">
+                                        <p class="keyword">반려동물</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </span>
+                        <span class="keyword-link-span">
+                            <div class="keyword-link-div">
+                                <a class="keyword-link">
+                                    <div class="keyword-div">
+                                        <p class="keyword">캠핑</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </span>
+                        <span class="keyword-link-span">
+                            <div class="keyword-link-div">
+                                <a class="keyword-link">
+                                    <div class="keyword-div">
+                                        <p class="keyword">취미</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </span>
+                        <span class="keyword-link-span">
+                            <div class="keyword-link-div">
+                                <a class="keyword-link">
+                                    <div class="keyword-div">
+                                        <p class="keyword">이벤트</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </span>
+                    </nav>
+                </div>
+                <div class="hot-key-nav-layout">
+                    <div>
+                        <span>
+                            <div>
+                                <div></div>
+                                <button></button>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="height: 500px;">
+        asdfasdf
+        asdfl;k
+    </div>
     <footer class="footer">
         <div class="footer-layout">
             <div class="footer-left">
@@ -314,7 +358,6 @@
                             대표이사 이승재
                         </div>
                         <div class="css-1jsgrdm e1j25pi01">
-                            <span class="css-5hz1ob">|</span>
                             <address class="css-ya1ij">서울 서초구 서초대로74길 4 삼성생명서초타워 25층, 27층</address>
                         </div>
                         <div class="css-1jsgrdm e1j25pi01">
