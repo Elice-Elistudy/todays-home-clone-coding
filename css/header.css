@@ -5,6 +5,15 @@ a{
 a:visited { 
   text-decoration: none;
 }
+.header1{
+  position: fixed;
+  z-index: 1102;
+  transition: top 0.1s ease 0s;
+  top: 0px;
+  width: 100%;
+  background: #FFFFFF;
+  border-bottom: 1px solid #EAEDEF;
+}
 .header-layout{
   height: 80px;
   padding-top: 10px;
@@ -17,7 +26,7 @@ a:visited {
   box-sizing: border-box;
   line-height: 0;
 }
-.test{
+.home-logo-area{
   margin-right: 35px;
   position: static;
   transform: none;
@@ -27,13 +36,13 @@ a:visited {
   align-items: center;
 }
 
-.test2{
+.page-nav-area{
   display: block;
   flex: 1 1 0px;
   white-space: nowrap;
 }  
 
-.test3{
+.user-nav-area{
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -86,7 +95,6 @@ a:visited {
   display: inline-block; /* 요소를 블록 수준으로 표시합니다. */
   font-size: 16px;
   font-weight: bold;
-  color: #2F3438;
   text-decoration: none;
 }
 
@@ -95,6 +103,10 @@ a:visited {
   margin: -4px;
   padding: 4px;
   border-radius: 3px;
+}
+
+.page-link-name:hover{
+  color: #35C5F0;
 }
 
 .global-search-combobox{
@@ -253,3 +265,6 @@ a:visited {
   display: inline-block;
   vertical-align: middle;
 }
+
+
+
