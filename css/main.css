@@ -287,6 +287,142 @@ section {
   color: rgb(47, 52, 56);
 }
 
+/* main 4번 */
+.css-1obbfpy {
+  margin: 40px auto;
+  max-width: 1256px;
+  padding: 0px 60px;
+  box-sizing: border-box;
+  background: rgb(255, 255, 255);
+}
+.css-14vj981 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 0px;
+  font-size: 0px;
+  line-height: 1;
+}
+.css-dlv2hg {
+  flex: 1 1 0%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  min-width: 0px;
+}
+.css-147wp72 {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  cursor: pointer;
+}
+.css-1d0kvw3 {
+  overflow: hidden;
+  display: inline-block;
+  font-weight: 700;
+  color: rgb(47, 52, 56);
+  letter-spacing: -0.3px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 18px;
+  line-height: 28px;
+}
+.css-7z0c8w {
+  display: flex;
+  align-items: center;
+  height: 0px;
+  margin-left: 10px;
+}
+.css-av2k9l {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  background: none;
+  font-style: inherit;
+  font-variant: inherit;
+  font-stretch: inherit;
+  font-family: inherit;
+  font-optical-sizing: inherit;
+  font-kerning: inherit;
+  font-feature-settings: inherit;
+  font-variation-settings: inherit;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  color: rgb(53, 197, 240);
+  cursor: pointer;
+}
+.css-av2k9l:hover {
+  opacity: 0.5;
+}
+.css-70b3yb {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.css-fyyvpx {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-width: 0px;
+  flex-flow: column;
+}
+.css-19wlhzi {
+  overflow: hidden;
+  position: relative;
+  border-radius: 4px;
+}
+.css-19wlhzi::after {
+  content: "";
+  display: block;
+  padding-top: 66.6667%;
+}
+.css-gnpvt2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: transform 0.2s ease 0s;
+}
+.css-gnpvt2:hover{
+  transform: scale(1.05);
+}
+.css-fyyvpx .e1fm144d3 {
+  margin-top: 10px;
+}
+.css-ou7uck {
+  min-width: 0px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: rgb(47, 52, 56);
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+.css-vbg47w {
+  overflow: hidden;
+}
+.css-1opz4n5 {
+  color: rgb(53, 197, 240);
+  font-weight: 700;
+}
+.css-1opz4n5::after {
+  content: " ";
+}
+.css-11ab5xd {
+  position: absolute;
+  inset: 0px;
+  cursor: pointer;
+}
+.css-19wlhzi::after {
+  content: "";
+  display: block;
+  padding-top: 66.6667%;
+}
 
 /* main 6번 */
 .css-1obbfpy {
