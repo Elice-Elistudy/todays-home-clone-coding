@@ -5,6 +5,8 @@ section {
 .main{
   margin-top: 30px;
 }
+
+
 /* main 1번 */
 .css-139mcwb {
   max-width: 1256px;
@@ -255,6 +257,8 @@ section {
   line-height: 1;
   vertical-align: middle;
 }
+
+
 /* main 2번 */
 .css-1yqrra9 {
   max-width: 1256px;
@@ -281,4 +285,147 @@ section {
   line-height: 20px;
   display: block;
   color: rgb(47, 52, 56);
+}
+
+
+/* main 6번 */
+.css-1obbfpy {
+  margin: 40px auto;
+  max-width: 1256px;
+  padding: 0px 60px;
+  box-sizing: border-box;
+  background: rgb(255, 255, 255);
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  unicode-bidi: isolate;
+}
+
+.css-14vj981 {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 0px;
+  font-size: 0px;
+  line-height: 1;
+}
+.css-dlv2hg {
+  flex: 1 1 0%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  min-width: 0px;
+}
+.css-1ao6pmd {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+}
+.css-1d0kvw3 {
+  overflow: hidden;
+  display: inline-block;
+  font-weight: 700;
+  color: rgb(47, 52, 56);
+  letter-spacing: -0.3px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 20px;
+  line-height: 28px;
+}
+.css-7z0c8w {
+  display: flex;
+  align-items: center;
+  height: 0px;
+  margin-left: 0px;
+}
+.css-bjn8wh {
+  position: relative;
+}
+.css-3q4ecs {
+  position: relative;
+  z-index: 0;
+}
+.css-12glnu3 {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+.css-101y6qw {
+  margin: 0px 12px 0px 0px;
+  padding: 0px;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+}
+.css-1sdvu8p {
+  width: 72px;
+}
+.css-1akwg05 {
+  width: 100%;
+  height: 72px;
+}
+.css-1pyhixg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.css-j18tx0 {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb(47, 52, 56);
+  text-align: center;
+  white-space: nowrap;
+}
+.css-1113i1f {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 0%;
+  display: none;
+}
+.css-xbyp8 {
+  margin: 0px;
+  border: none;
+  background: none rgb(255, 255, 255);
+  font-style: inherit;
+  font-variant: inherit;
+  font-stretch: inherit;
+  font-family: inherit;
+  font-optical-sizing: inherit;
+  font-kerning: inherit;
+  font-feature-settings: inherit;
+  font-variation-settings: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  box-sizing: border-box;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 0px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  box-shadow: rgba(63, 71, 77, 0.15) 0px 2px 5px;
+}
+.css-kz9ng2 {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 1;
+}
+.css-h72v4d {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 100%;
 }
