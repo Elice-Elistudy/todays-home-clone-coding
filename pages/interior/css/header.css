@@ -15,6 +15,7 @@ a:visited {
   background: #FFFFFF;
   border-bottom: 1px solid #EAEDEF;
 }
+
 .header-layout{
   height: 80px;
   padding-top: 10px;
@@ -598,6 +599,4 @@ a:visited {
   vertical-align: middle;
   padding-right: 6px;
   color: #828C94;
-} */
-
-/* 두번째 div */
+}

@@ -16,322 +16,11 @@
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/contents.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="../../css/reset.css">
+
 
   <style>
-    .set-fourth-content-center {
-      padding: 0px 16px;
-      box-sizing: border-box;
-    }
 
-    @media (min-width: 768px) {
-      .set-fourth-content-center {
-        margin: 0px auto;
-        width: 558px;
-        box-sizing: content-box;
-      }
-    }
-
-    @media (min-width: 1256px) {
-      .set-fourth-content-center {
-        max-width: 1256px;
-        margin: 0px auto;
-        padding: 0px 60px;
-      }
-    }
-
-    @media (min-width: 1024px) {
-      .set-fourth-content-center {
-        padding: 0px 60px;
-      }
-    }
-
-    @media (min-width: 768px) {
-      .set-fourth-content-center {
-        padding: 0px 40px;
-      }
-    }
-
-    .set-fourth-content-relative {
-      position: relative;
-    }
-
-    .set-fourth-content-relative>div:nth-of-type(1) {
-      mask-image: -webkit-radial-gradient(center, white, black);
-      border-radius: 6px;
-    }
-
-    .css-d3v9zr {
-      overflow: hidden;
-    }
-
-    .css-154jlx0 {
-      display: flex;
-      flex-wrap: nowrap;
-      -webkit-box-align: stretch;
-      align-items: stretch;
-      min-height: 100%;
-      padding: 0px;
-      margin: 0px;
-    }
-
-    ol,
-    ul {
-      list-style: none;
-    }
-
-    li {
-      text-align: -webkit-match-parent;
-    }
-
-    .css-l4nyle {
-      flex: 0 0 auto;
-      user-select: none;
-      box-sizing: border-box;
-      padding: 0px;
-      margin: 0px;
-      width: 100%;
-    }
-
-    .css-7yo18d {
-      margin: 0px auto;
-      width: 100%;
-      background-color: rgb(235, 237, 228);
-      overflow: hidden;
-      height: 96px;
-    }
-
-
-    .css-1snu9qt {
-      position: relative;
-      display: block;
-      height: 100%;
-    }
-
-    .css-l4nyle * {
-      -webkit-user-drag: none;
-    }
-
-    [role=button],
-    a,
-    button,
-    input[type=button],
-    input[type=reset],
-    input[type=submit] {
-      cursor: pointer;
-      -ms-touch-action: manipulation;
-      touch-action: manipulation;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
-
-    .css-tktv3m {
-      display: block;
-      margin: 0px auto;
-      height: 100%;
-      image-rendering: -webkit-optimize-contrast;
-      transform: translateZ(0px);
-      backface-visibility: hidden;
-    }
-
-    a * {
-      border: none;
-    }
-
-    fieldset,
-    img {
-      border: 0;
-    }
-
-    img {
-      overflow-clip-margin: content-box;
-      overflow: clip;
-    }
-
-    .css-ozk7e8 {
-      position: absolute;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      left: 0%;
-    }
-
-    .css-1mi5r1o button[aria-label="다음"],
-    .css-1mi5r1o button[aria-label="이전"] {
-      display: none;
-    }
-
-    .css-xbyp8 {
-      margin: 0px;
-      border: none;
-      background: none rgb(255, 255, 255);
-      font-style: inherit;
-      font-variant: inherit;
-      font-stretch: inherit;
-      font-family: inherit;
-      font-optical-sizing: inherit;
-      font-kerning: inherit;
-      font-feature-settings: inherit;
-      font-variation-settings: inherit;
-      font-size: 16px;
-      line-height: 20px;
-      font-weight: 700;
-      box-sizing: border-box;
-      text-align: center;
-      color: rgb(255, 255, 255);
-      padding: 0px;
-      width: 48px;
-      height: 48px;
-      display: flex;
-      -webkit-box-align: center;
-      align-items: center;
-      -webkit-box-pack: center;
-      justify-content: center;
-      border-radius: 24px;
-      box-shadow: rgba(63, 71, 77, 0.15) 0px 2px 5px;
-    }
-
-    button,
-    input,
-    select,
-    textarea {
-      font-size: inherit;
-    }
-
-    [role=button],
-    a,
-    button,
-    input[type=button],
-    input[type=reset],
-    input[type=submit] {
-      cursor: pointer;
-      -ms-touch-action: manipulation;
-      touch-action: manipulation;
-    }
-
-    button,
-    input[type=email],
-    input[type=file],
-    input[type=number],
-    input[type=password],
-    input[type=submit],
-    input[type=tel],
-    input[type=text],
-    option,
-    select,
-    textarea {
-      -webkit-appearance: none;
-      -moz-appearance: textfield;
-    }
-
-    .css-kz9ng2 {
-      display: inline-block;
-      font-size: 24px;
-      line-height: 1;
-      color: rgb(47, 52, 56);
-    }
-
-    [class^="_"],
-    [class*=" _"] {
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
-
-    .css-h72v4d {
-      position: absolute;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      left: 100%;
-    }
-
-    .css-14bw7le {
-      position: relative;
-      top: 18px;
-    }
-
-    .css-sxmxce {
-      text-align: center;
-      white-space: nowrap;
-      font-size: 0px;
-      line-height: 0;
-      padding: 0px;
-      position: absolute;
-      width: 100%;
-      bottom: 30px;
-    }
-
-    .css-wv42kf {
-      margin: 0px;
-      padding: 0px;
-      height: 0px;
-      vertical-align: bottom;
-      display: inline-block;
-    }
-
-    .css-1ik35dm {
-      display: inline-block;
-      padding: 0px;
-      border: none;
-      background: none rgb(194, 200, 204);
-      font: inherit;
-      border-radius: 50%;
-      transition: background-color 0.15s ease 0s, width 0.15s ease 0s, height 0.15s ease 0s;
-      transform: translateY(-50%);
-      box-sizing: border-box;
-      width: 0px;
-      height: 0px;
-      margin: 0px;
-    }
-
-    .css-e6owdv {
-      display: inline-block;
-      padding: 0px;
-      border: none;
-      background: none rgb(194, 200, 204);
-      font: inherit;
-      border-radius: 50%;
-      transition: background-color 0.15s ease 0s, width 0.15s ease 0s, height 0.15s ease 0s;
-      transform: translateY(-50%);
-      box-sizing: border-box;
-      margin: 0px 3px;
-      width: 4px;
-      height: 4px;
-    }
-
-    .css-185a8e7 {
-      display: inline-block;
-      padding: 0px;
-      border: none;
-      background: none rgb(194, 200, 204);
-      font: inherit;
-      width: 6px;
-      height: 6px;
-      border-radius: 50%;
-      transition: background-color 0.15s ease 0s, width 0.15s ease 0s, height 0.15s ease 0s;
-      transform: translateY(-50%);
-      box-sizing: border-box;
-      margin: 0px 3px;
-    }
-
-    .css-1fl753 {
-      display: inline-block;
-      padding: 0px;
-      border: none;
-      background: none rgb(47, 52, 56);
-      font: inherit;
-      border-radius: 50%;
-      transition: background-color 0.15s ease 0s, width 0.15s ease 0s, height 0.15s ease 0s;
-      transform: translateY(-50%);
-      box-sizing: border-box;
-      margin: 0px 3px;
-      width: 8px;
-      height: 8px;
-    }
-
-    .css-7y30bf {
-      height: 16px;
-    }
   </style>
 
 </head>
@@ -341,7 +30,7 @@
   <div class="layout">
     <!--==================== 헤더 영역 ====================-->
 
-
+    <!-- 첫번째 해더 -->
     <div class="sticky-container" style="height: 81px;">
       <div class="header1">
         <div class="header-layout">
@@ -403,6 +92,7 @@
       </div>
     </div>
 
+    <!-- 두번째 해더 -->
     <div class="sticky-container" style="height: 52px;">
       <div class="layout-navigation-secondary"
         style="position: fixed; z-index:1101; transition: top 0.1s ease 0s; top: 81px; width: 100%;">
@@ -422,7 +112,7 @@
                 <div class="keyword-link-div">
                   <a class="keyword-link">
                     <div class="keyword-div">
-                      <p class="keyword">추천</p>
+                      <p class="keyword">주거공간시공</p>
                     </div>
                   </a>
                 </div>
@@ -431,7 +121,7 @@
                 <div class="keyword-link-div">
                   <a class="keyword-link">
                     <div class="keyword-div">
-                      <p class="keyword">#채널</p>
+                      <p class="keyword">상업공간시공</p>
                     </div>
                   </a>
                 </div>
@@ -440,7 +130,7 @@
                 <div class="keyword-link-div">
                   <a class="keyword-link">
                     <div class="keyword-div">
-                      <p class="keyword">집들이</p>
+                      <p class="keyword">시공자재랭킹</p>
                     </div>
                   </a>
                 </div>
@@ -449,7 +139,7 @@
                 <div class="keyword-link-div">
                   <a class="keyword-link">
                     <div class="keyword-div">
-                      <p class="keyword">집사진</p>
+                      <p class="keyword">제품설치</p>
                     </div>
                   </a>
                 </div>
@@ -458,7 +148,7 @@
                 <div class="keyword-link-div">
                   <a class="keyword-link">
                     <div class="keyword-div">
-                      <p class="keyword">3D인테리어</p>
+                      <p class="keyword">이사</p>
                     </div>
                   </a>
                 </div>
@@ -467,7 +157,7 @@
                 <div class="keyword-link-div">
                   <a class="keyword-link">
                     <div class="keyword-div">
-                      <p class="keyword">살림수납</p>
+                      <p class="keyword">집보기체크리스트</p>
                     </div>
                   </a>
                 </div>
@@ -476,83 +166,12 @@
                 <div class="keyword-link-div">
                   <a class="keyword-link">
                     <div class="keyword-div">
-                      <p class="keyword">콜렉터블</p>
+                      <p class="keyword">아파트시공사례</p>
                     </div>
                   </a>
                 </div>
               </span>
-              <span class="keyword-link-span">
-                <div class="keyword-link-div">
-                  <a class="keyword-link">
-                    <div class="keyword-div">
-                      <p class="keyword">홈스토랑</p>
-                    </div>
-                  </a>
-                </div>
-              </span>
-              <span class="keyword-link-span">
-                <div class="keyword-link-div">
-                  <a class="keyword-link">
-                    <div class="keyword-div">
-                      <p class="keyword">핫플레이스</p>
-                    </div>
-                  </a>
-                </div>
-              </span>
-              <span class="keyword-link-span">
-                <div class="keyword-link-div">
-                  <a class="keyword-link">
-                    <div class="keyword-div">
-                      <p class="keyword">육아</p>
-                    </div>
-                  </a>
-                </div>
-              </span>
-              <span class="keyword-link-span">
-                <div class="keyword-link-div">
-                  <a class="keyword-link">
-                    <div class="keyword-div">
-                      <p class="keyword">플랜테리어</p>
-                    </div>
-                  </a>
-                </div>
-              </span>
-              <span class="keyword-link-span">
-                <div class="keyword-link-div">
-                  <a class="keyword-link">
-                    <div class="keyword-div">
-                      <p class="keyword">반려동물</p>
-                    </div>
-                  </a>
-                </div>
-              </span>
-              <span class="keyword-link-span">
-                <div class="keyword-link-div">
-                  <a class="keyword-link">
-                    <div class="keyword-div">
-                      <p class="keyword">캠핑</p>
-                    </div>
-                  </a>
-                </div>
-              </span>
-              <span class="keyword-link-span">
-                <div class="keyword-link-div">
-                  <a class="keyword-link">
-                    <div class="keyword-div">
-                      <p class="keyword">취미</p>
-                    </div>
-                  </a>
-                </div>
-              </span>
-              <span class="keyword-link-span">
-                <div class="keyword-link-div">
-                  <a class="keyword-link">
-                    <div class="keyword-div">
-                      <p class="keyword">이벤트</p>
-                    </div>
-                  </a>
-                </div>
-              </span>
+
             </nav>
             <!-- <span class="keyword-drawer">
                       <button type="button" class="keyword-drawer-btn">
@@ -1017,29 +636,35 @@
 
 
       <!-- Start Fourth content -->
-      <div id="fourth content" class="exw92j51 set-fourth-content-center">
-        <div role="region" aria-roledescription="carousel" class="set-fourth-content-relative e1tym1gd4">
+      <div id="fourth-content" class="exw92j51 css-1s74jrx">
+        <div role="region" aria-roledescription="carousel" class="css-1mi5r1o e1tym1gd4">
           <div class="css-d3v9zr e1tym1gd3"
             style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
-            <ul aria-live="polite" class="css-154jlx0 e1tym1gd2" style="transform: translateX(0%);">
-              <li role="group" aria-roledescription="slide" aria-label="1 of 8" class="css-l4nyle e1tym1gd1">
-                <div role="banner" class="css-1puykzp elkjp0d1"><a data-testid="banner-link"
-                    class="css-1snu9qt elkjp0d0" href="/competitions/987"><img class="css-tktv3m" alt="배너"
-                      src="https://image.ohou.se/i/bucketplace-v2-development/uploads/banners/pro_project/169137382239644916.png?gif=1&amp;h=360&amp;q=100&amp;webp=1"
-                      srcset="https://image.ohou.se/i/bucketplace-v2-development/uploads/banners/pro_project/169137382239644916.png?gif=1&amp;h=640&amp;q=100&amp;webp=1 1.5x,https://image.ohou.se/i/bucketplace-v2-development/uploads/banners/pro_project/169137382239644916.png?gif=1&amp;h=720&amp;q=100&amp;webp=1 2x,https://image.ohou.se/i/bucketplace-v2-development/uploads/banners/pro_project/169137382239644916.png?gif=1&amp;h=1080&amp;q=100&amp;webp=1 3x"></a>
+            <ul aria-live="off" class="css-154jlx0 e1tym1gd2" style="transform: translateX(0%);">
+              <li role="group" aria-roledescription="slide" aria-label="0 of 8" class="css-l4nyle e1tym1gd1">
+                <div role="banner" class="css-ayo733 elkjp0d1"><a data-testid="banner-link" class="css-1snu9qt elkjp0d0"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdpZVarjdUKq8YrLWv0hoSFQdYrZu-YoIxuXKhFhtfrVtSDSg/viewform"><img
+                      class="css-tktv3m" alt="배너"
+                      src="https://image.ohou.se/i/bucketplace-v2-development/uploads/banners/pro_project/170659096343157913.jpg?gif=1&amp;h=360&amp;q=100&amp;webp=1"
+                      srcset="https://image.ohou.se/i/bucketplace-v2-development/uploads/banners/pro_project/170659096343157913.jpg?gif=1&amp;h=640&amp;q=100&amp;webp=1 1.5x,https://image.ohou.se/i/bucketplace-v2-development/uploads/banners/pro_project/170659096343157913.jpg?gif=1&amp;h=720&amp;q=100&amp;webp=1 2x,https://image.ohou.se/i/bucketplace-v2-development/uploads/banners/pro_project/170659096343157913.jpg?gif=1&amp;h=1080&amp;q=100&amp;webp=1 3x"></a>
                 </div>
               </li>
             </ul>
           </div>
-          <div class="css-ozk7e8"><button type="button" aria-label="이전" class="css-xbyp8"><span
-                class="_chevron_left_24 css-kz9ng2"></span></button></div>
-          <div class="css-h72v4d"><button type="button" aria-label="다음" class="css-xbyp8"><span
-                class="_chevron_right_24 css-kz9ng2"></span></button></div>
+          <div class="css-ozk7e8">
+            <button type="button" aria-label="이전" class="css-xbyp8">
+              <span class="css-kz9ng2"><</span>
+            </button></div>
+          <div class="css-h72v4d">
+            <button type="button" aria-label="다음" class="css-xbyp8">
+              <span class="css-kz9ng2">></span>
+            </button>
+          </div>
           <div class="css-14bw7le e1tym1gd0">
             <ul class="css-sxmxce">
-              <li class="css-wv42kf"><button type="button" aria-label="1 페이지" class="css-185a8e7"></button></li>
-              <li class="css-wv42kf"><button type="button" aria-label="2 페이지" class="css-1fl753"
+              <li class="css-wv42kf"><button type="button" aria-label="1 페이지" class="css-1fl753"
                   aria-current="true"></button></li>
+              <li class="css-wv42kf"><button type="button" aria-label="2 페이지" class="css-185a8e7"></button></li>
               <li class="css-wv42kf"><button type="button" aria-label="3 페이지" class="css-185a8e7"></button></li>
               <li class="css-wv42kf"><button type="button" aria-label="4 페이지" class="css-185a8e7"></button></li>
               <li class="css-wv42kf"><button type="button" aria-label="5 페이지" class="css-185a8e7"></button></li>

@@ -271,3 +271,343 @@ min-width: 50px;
 /* 세번째 contents */
 
 /* 네번째 contents */
+.css-1s74jrx {
+  padding: 0px 16px;
+  box-sizing: border-box;
+}
+
+.css-1s74jrx {
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .css-1s74jrx{
+    margin: 0px auto;
+    width: 558px;
+    box-sizing: content-box;
+  }
+}
+
+@media (min-width: 1256px) {
+  .css-1s74jrx {
+    max-width: 1256px;
+    margin: 0px auto;
+    padding: 0px 60px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .css-1s74jrx {
+    padding: 0px 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  .css-1s74jrx {
+    padding: 0px 40px;
+  }
+}
+
+.css-1mi5r1o {
+  position: relative;
+}
+
+.css-1mi5r1o > div:nth-of-type(1) {
+  mask-image: -webkit-radial-gradient(center, white, black);
+  border-radius: 6px;
+}
+
+.css-d3v9zr {
+  overflow: hidden;
+}
+
+.css-154jlx0 {
+  display: flex;
+  flex-wrap: nowrap;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  min-height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  unicode-bidi: isolate;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+li {
+  text-align: -webkit-match-parent;
+}
+
+.css-x5sid7 {
+  margin: 0px auto;
+  width: 100%;
+  background-color: rgb(0, 137, 240);
+  overflow: hidden;
+  height: 96px;
+}
+
+.css-l4nyle {
+  flex: 0 0 auto;
+  user-select: none;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+.css-7yo18d {
+  margin: 0px auto;
+  width: 100%;
+  background-color: rgb(235, 237, 228);
+  overflow: hidden;
+  height: 96px;
+}
+
+
+.css-1snu9qt {
+  position: relative;
+  display: block;
+  height: 100%;
+}
+
+.css-l4nyle * {
+  -webkit-user-drag: none;
+}
+
+[role=button],
+a,
+button,
+input[type=button],
+input[type=reset],
+input[type=submit] {
+  cursor: pointer;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.css-tktv3m {
+  display: block;
+  margin: 0px auto;
+  height: 100%;
+  image-rendering: -webkit-optimize-contrast;
+  transform: translateZ(0px);
+  backface-visibility: hidden;
+}
+
+a * {
+  border: none;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.css-ozk7e8 {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 0%;
+}
+
+.css-1mi5r1o button[aria-label="다음"],
+.css-1mi5r1o button[aria-label="이전"] {
+  display: none;
+}
+
+.css-1mi5r1o:hover button[aria-label="다음"], .css-1mi5r1o:hover button[aria-label="이전"] {
+  display: block;
+}
+
+.css-xbyp8 {
+  margin: 0px;
+  border: none;
+  background: none rgb(255, 255, 255);
+  font-style: inherit;
+  font-variant: inherit;
+  font-stretch: inherit;
+  font-family: inherit;
+  font-optical-sizing: inherit;
+  font-kerning: inherit;
+  font-feature-settings: inherit;
+  font-variation-settings: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  box-sizing: border-box;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 0px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-radius: 24px;
+  box-shadow: rgba(63, 71, 77, 0.15) 0px 2px 5px;
+}
+
+button,
+input,
+select,
+textarea {
+  font-size: inherit;
+}
+
+[role=button],
+a,
+button,
+input[type=button],
+input[type=reset],
+input[type=submit] {
+  cursor: pointer;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+button,
+input[type=email],
+input[type=file],
+input[type=number],
+input[type=password],
+input[type=submit],
+input[type=tel],
+input[type=text],
+option,
+select,
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+}
+
+.css-kz9ng2 {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 1;
+  color: rgb(47, 52, 56);
+}
+
+[class^="_"],
+[class*=" _"] {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.css-h72v4d {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 100%;
+}
+
+.css-14bw7le {
+  position: relative;
+  top: 18px;
+}
+
+.css-sxmxce {
+  text-align: center;
+  white-space: nowrap;
+  font-size: 0px;
+  line-height: 0;
+  padding: 0px;
+  position: absolute;
+  width: 100%;
+  bottom: 30px;
+}
+
+.css-wv42kf {
+  margin: 0px;
+  padding: 0px;
+  height: 0px;
+  vertical-align: bottom;
+  display: inline-block;
+}
+
+.css-1ik35dm {
+  display: inline-block;
+  padding: 0px;
+  border: none;
+  background: none rgb(194, 200, 204);
+  font: inherit;
+  border-radius: 50%;
+  transition: background-color 0.15s ease 0s, width 0.15s ease 0s, height 0.15s ease 0s;
+  transform: translateY(-50%);
+  box-sizing: border-box;
+  width: 0px;
+  height: 0px;
+  margin: 0px;
+}
+
+.css-e6owdv {
+  display: inline-block;
+  padding: 0px;
+  border: none;
+  background: none rgb(194, 200, 204);
+  font: inherit;
+  border-radius: 50%;
+  transition: background-color 0.15s ease 0s, width 0.15s ease 0s, height 0.15s ease 0s;
+  transform: translateY(-50%);
+  box-sizing: border-box;
+  margin: 0px 3px;
+  width: 4px;
+  height: 4px;
+}
+
+.css-185a8e7 {
+  display: inline-block;
+  padding: 0px;
+  border: none;
+  background: none rgb(194, 200, 204);
+  font: inherit;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  transition: background-color 0.15s ease 0s, width 0.15s ease 0s, height 0.15s ease 0s;
+  transform: translateY(-50%);
+  box-sizing: border-box;
+  margin: 0px 3px;
+}
+
+.css-1fl753 {
+  display: inline-block;
+  padding: 0px;
+  border: none;
+  background: none rgb(47, 52, 56);
+  font: inherit;
+  border-radius: 50%;
+  transition: background-color 0.15s ease 0s, width 0.15s ease 0s, height 0.15s ease 0s;
+  transform: translateY(-50%);
+  box-sizing: border-box;
+  margin: 0px 3px;
+  width: 8px;
+  height: 8px;
+}
+
+.css-7y30bf {
+  height: 16px;
+}
