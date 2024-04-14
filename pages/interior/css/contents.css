@@ -1,0 +1,273 @@
+/* contents 영역  CSS*/
+
+/* 전체 Contents 묶기 */
+.content-wrap {
+  display: flex;
+  flex: 1 1 auto;
+  flex-flow: column;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+}
+
+/* 공통 CSS */
+.relative-position {
+  position: relative;
+}
+
+
+
+
+/* 첫번째 content */
+@media (min-width: 768px){
+  .set-content-center {
+    margin: 0px auto;
+    width: 558px;
+    box-sizing: content-box;
+  }
+}
+
+.set2x4 {
+  flex-flow: column;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.item-container {
+  display: flex;
+  flex-flow: column;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  min-width: 68px;
+  margin: 5px 0px 18px;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+
+.design-hot{
+  font-size: 12px;
+  padding: 0px 6px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 119, 119);
+  display: inline-block;
+  font-weight: 700;
+  height: 20px;
+  line-height: 20px;
+  position: absolute;
+  top: -4px;
+  left: 50%;
+}
+
+
+.set-inner-container {
+  margin-bottom: 6px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 16px;
+}
+
+@media (min-width: 768px){
+  .set-inner-container {
+    width: 67px;
+    height: 67px;
+  }
+}
+
+
+.set-icon-name-center {
+  text-align: center;
+}
+
+
+/* 두번째 content */
+.set-second-content-center {
+  padding: 0px 16px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .set-second-content-center {
+    margin: 0px auto;
+    width: 558px;
+    box-sizing: content-box;
+  }
+}
+@media (min-width:1256px){
+  .set-second-content-centerr {
+    max-width: 1256px;
+    margin: 0px auto;
+    padding: 0px 60px;
+  }
+}
+
+@media (min-width: 1024px){
+  .set-second-content-center {
+    padding: 0px 60px;
+  }
+}
+
+@media (min-width: 768px){
+  .set-second-content-center {
+  padding: 0px 40px;
+  }
+}
+
+.set-second-content-center {
+  margin: 0px auto;
+  width: 558px;
+  box-sizing: content-box;
+}
+
+
+.set-second-content-padding {
+padding: 15px 0px;
+}
+
+@media (min-width: 768px){
+.set-second-content-padding {
+  padding: 20px 0px 15px;
+}
+}
+
+.set-second-content-position {
+position: absolute;
+top: -45px;
+left: 0px;
+visibility: hidden;
+opacity: 0;
+animation-name: animation-1ihm3np;
+animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+animation-fill-mode: forwards;
+animation-duration: 0.2s;
+transition: all 0.3s ease-out 0s;
+}
+
+.set-second-content-box {
+font-size: 14px;
+line-height: 20px;
+letter-spacing: -0.3px;
+position: relative;
+gap: 10px;
+display: inline-block;
+}
+
+.set-second-content-address {
+padding: 8px 12px;
+border-radius: 4px;
+color: rgb(255, 255, 255);
+background-color: rgb(47, 52, 56);
+-webkit-box-align: center;
+align-items: center;
+margin: auto;
+white-space: pre-line;
+display: flex;
+flex-direction: row;
+}
+
+.set-second-content-address-icon {
+width: 14px;
+height: 10px;
+}
+
+.set-second-content-element-inline{
+display: flex;
+flex-flow: row;
+-webkit-box-pack: justify;
+justify-content: space-between;
+}
+
+.set-second-content-text-box{
+display: flex;
+flex-flow: row;
+-webkit-box-align: center;
+align-items: center;
+position: relative;
+}
+
+.set-second-content-adjust-text {
+overflow: hidden;
+text-overflow: ellipsis;
+overflow-wrap: break-word;
+display: -webkit-box;
+-webkit-line-clamp: 1;
+-webkit-box-orient: vertical;
+font-size: 14px;
+line-height: 20px;
+color: rgb(47, 52, 56);
+}
+
+.hide-button-shape {
+display: inline-block;
+margin: 0px;
+padding: 0px;
+border: none;
+background: none;
+font: inherit;
+}
+
+.set-addressChange-text {
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+color: rgb(53, 197, 240);
+min-width: 50px;
+}
+
+/* 수평선 그리기 */
+.set-hr-center {
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+@media (min-width: 768px){
+  .set-hr-center {
+    margin: 0px auto;
+    width: 558px;
+    box-sizing: content-box;
+  }
+}
+@media (min-width:1256px){
+  .set-hr-center {
+    max-width: 1256px;
+    margin: 0px auto;
+    padding: 0px 60px;
+  }
+}
+
+@media (min-width: 1024px){
+  .set-hr-center {
+    padding: 0px 60px;
+  }
+}
+
+@media (min-width:768px){
+  .set-hr-center {
+    padding: 0px 40px;
+  }
+}
+
+.set-line {
+  margin: 0px;
+  padding: 0px;
+  height: 1px;
+  border: none;
+  background-color: rgb(234, 237, 239);
+}
+
+/* 세번째 contents */
+
+/* 네번째 contents */
