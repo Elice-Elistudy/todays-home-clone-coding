@@ -1,0 +1,602 @@
+/* Header 영역 CSS */
+a{
+  text-decoration: none;
+  color: black;
+}
+a:visited { 
+  text-decoration: none;
+}
+.header1{
+  position: fixed;
+  z-index: 1102;
+  transition: top 0.1s ease 0s;
+  top: 0px;
+  width: 100%;
+  background: #FFFFFF;
+  border-bottom: 1px solid #EAEDEF;
+}
+
+.header-layout{
+  height: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 1256px;
+  margin: 0 auto;
+  padding: 10px 60px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  line-height: 0;
+}
+.home-logo-area{
+  margin-right: 35px;
+  position: static;
+  transform: none;
+  flex: 0 0 auto;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+}
+
+.page-nav-area{
+  display: block;
+  flex: 1 1 0px;
+  white-space: nowrap;
+}  
+
+.user-nav-area{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  line-height: 0;
+}
+.home-logo{
+  border: none;
+  background: none;
+  display: inline-flex;
+  align-items: center;
+  margin: -4px;
+  padding: 4px;
+  font-size: 0;
+  line-height: 0;
+  color: #212629;
+  outline: none;
+}
+
+.page-link{
+  border: none;
+  background: none;
+  font: inherit;
+  position: relative;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 21px 5px 15px;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: bold;
+  color: #2F3438;
+  outline: none;
+}
+
+.page-link-selected{
+  border: none;
+  background: none;
+  font: inherit;
+  position: relative;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 21px 5px 15px;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: bold;
+  color: #35C5F0;
+}
+
+.page-link-selected,
+.page-link {
+  display: inline-block; /* 요소를 블록 수준으로 표시합니다. */
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.page-link-name{
+  display: inline-block;
+  margin: -4px;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.page-link-name:hover{
+  color: #35C5F0;
+}
+
+.global-search-combobox{
+  display: flex;
+  margin-right: 14px;
+  width: 100%;
+}
+
+.global-search-combobox-layout{
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
+  box-sizing: border-box;
+  border: 1px solid #DADDE0;
+  border-radius: 4px;
+  height: 40px;
+  padding: 0 14px;
+  width: 100%;
+}
+
+.search-icon{
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 1;
+  vertical-align: middle;
+  padding-right: 6px;
+}
+
+.search-input{
+  width: 100%;
+  box-sizing: border-box;
+  flex: 1 0 0%;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  height: 100%;
+  color: #2F3438;
+  outline: none;
+  font-size: 16px;
+  line-height: 24px;
+  padding-right: 6px;
+}
+
+.cart-link{
+  position: relative;
+  display: inline-block;
+  padding: 6px;
+  margin: 3px 1px;
+  color: #2F3438;
+  line-height: 0;
+  outline: none;
+}
+
+.cart-icon{
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+}
+
+.user-nav{
+  display: flex;
+  align-items: center;
+}
+
+.login-nav{
+  display: flex;
+  margin: 0 10px 0 8px;
+  white-space: nowrap;
+}
+
+.login-signup-link{
+  font-family: none;
+  font-size: 14px;
+  line-height: 18px;
+  color: #2F3438;
+  padding: 0 10px;
+  border-left: 1px solid #EAEDEF;
+}
+
+.login-signup-link:first-of-type{
+  border-left: none;
+}
+
+.login-signup-link,
+.user-center-link {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.user-center-link{
+  font-family: none;
+  font-size: 14px;
+  line-height: 18px;
+  color: #2F3438;
+  padding: 0 10px;
+  border-left: 1px solid #EAEDEF;
+}
+
+.write-nav{
+  line-height: 0;
+}
+
+.write-button{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 14px;
+  line-height: 18px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 40px;
+  border-radius: 4px;
+  padding: 0 16px;
+  font-weight: 400;
+  box-sizing: border-box;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #35C5F0;
+  outline: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+@media (hover: hover) and (pointer: fine)
+{
+  .write-button:hover, .write-button:active {
+      background-color: #009FCE;
+  }
+}
+
+
+.write-link{
+  margin-right: 6px;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-family: none;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: white;
+}
+
+.write-drawer-icon{
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.layout-navigation-secondary{
+  background: #FFFFFF;
+  border-bottom: 1px solid #EAEDEF;
+}
+.second-nav-layout{
+  padding: 0 16px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  justify-content: center;
+  box-sizing: border-box;
+  overflow: auto;
+  overflow: initial;
+  padding-left: 0;
+}
+.keyword-nav-layout{
+  flex: 1 0 0;
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: center;
+  overflow: hidden;
+}
+.keyword-nav{
+  display: flex;
+  align-items: stretch;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin: 0 -5px;
+  height: 51px;
+}
+
+.keyword-link-span{
+  height: inherit;
+  display: block;
+}
+.keyword-link-div{
+  height: inherit;
+}
+.keyword-link{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: top;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 12px 6px;
+  height: inherit;
+  outline: none;
+}
+.keyword-div{
+  padding: 4px;
+  margin: -4px;
+}
+.keyword{
+  font-size: 14px;
+  line-height: 20px;
+  position: relative;
+  font-weight: 700;
+  color: #2F3438;
+  cursor: pointer;
+}
+.keyword:hover{
+  color: #35C5F0;
+}
+.keyword-drawer{
+  line-height: 0;
+}
+.keyword-drawer-btn{
+  margin: 0px;
+  border: none;
+  background: none;
+  font: inherit;
+  padding: 0px 6px;
+  height: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  position: absolute;
+  transform: translateX(-100%);
+}
+.keyword-drawer-icon{
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  line-height: 1;
+  z-index: 2;
+}
+
+/* 첫번째 헤더 영역 CSS */
+
+/* 첫번째 헤더 배경색 및, 아랫 border 생성 */
+/* .firstHeaderdiv {
+  background: #FFFFFF;
+  border-bottom: 1px solid #EAEDEF;
+}
+
+.css-1mfjm4o {
+  height: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 768px){
+  .css-55rg8t {
+    display: none;
+  }
+}
+
+.css-cwcsvq {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 1;
+}
+
+@media (min-width: 1024px){
+  .css-18i0nar {
+    margin-right: 35px;
+  }
+}
+
+@media (min-width: 768px){
+  .css-q02d8l {
+    height: 30px;
+  }
+}
+
+@media (min-width: 768px){
+  .css-1qa5cvy {
+    height: 30px;
+  }
+}
+
+.css-1qa5cvy {
+  vertical-align: top;
+  height: 26px;
+}
+
+/* 오늘의 집 로고 */
+.css-q02d8l {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: -4px;
+  padding: 4px;
+  font-size: 0;
+  line-height: 0;
+  color: #212629;
+  outline: none;
+  height: 26px;
+}
+
+/* 커뮤니티 ... */
+.css-1euxu4r {
+  -webkit-flex: 1 1 0px;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0px;
+  display: none;
+  white-space: nowrap;
+}
+
+/* 커뮤니티, ... 선택 안한거 */
+.css-53vhmk {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  position: relative;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 21px 5px 15px;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: bold;
+  color: #2F3438;
+  outline: none;
+}
+
+/* 선택한거 */
+.css-1ry7tgu {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  position: relative;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 21px 5px 15px;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: bold;
+  color: #2F3438;
+  outline: none;
+  color: #35C5F0;
+}
+
+/* / 로그인, 검색 등등 */
+.css-1i4309w {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+@media (min-width: 1256px){
+  .css-1i4309w {
+    -webkit-flex: 0 1 650px;
+    -ms-flex: 0 1 650px;
+    flex: 0 1 650px;
+  }
+}
+
+@media (min-width: 768px){
+  .css-1i4309w {
+    -webkit-flex: 0 1 476px;
+    -ms-flex: 0 1 476px;
+    flex: 0 1 476px;  
+  }
+}
+
+.css-10vibjk {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  line-height: 0;
+}
+
+.css-1o64euu {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  -webkit-flex: 1 1 0px;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0px;
+  min-width: 0;
+  margin-right: 9px;
+}
+
+@media (min-width: 1256px){
+  .css-1o64euu {
+    margin-right: 14px;
+  }
+}
+
+.css-10vibjk {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  line-height: 0;
+}
+
+.css-7whenc {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.css-1yhxgcl {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 0;
+  box-sizing: border-box;
+  border: 1px solid #DADDE0;
+  border-radius: 4px;
+  height: 40px;
+  padding: 0 14px;
+  width: 100%;
+}
+
+.css-hkiqzb {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 1;
+  vertical-align: middle;
+  padding-right: 6px;
+  color: #828C94;
+}
