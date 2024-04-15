@@ -1,1 +1,7 @@
 /* 회원가입 css */
+.signupp{
+    padding-top: 40px;
+    width: calc(100% - 30px);
+    margin: 0;
+    text-align: center;
+}
