@@ -1,4 +1,23 @@
 /* 회원가입 css */
+
+.main {
+    display: flex; /* 부모 요소를 플렉스 컨테이너로 설정하여 자식 요소를 수평으로 배치 */
+    height: 100vh; /* 컨테이너를 창의 높이와 동일하게 설정 */
+}
+
+.left, .center, .right {
+    flex: 1; /* 각 열이 동일한 크기를 가지도록 설정 */
+    box-sizing: border-box; /* 요소의 너비와 높이에 padding과 border를 포함시킴 */
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+.blank {
+    padding: 30px;
+}
+
 div,form,h1,input,li,p,textarea,ul{margin:0;padding:0;}
 h1{font-weight:inherit;}
 ul{list-style:none;}
