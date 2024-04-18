@@ -1,15 +1,17 @@
 /* 회원가입 css */
-
 .main {
-    display: flex; /* 부모 요소를 플렉스 컨테이너로 설정하여 자식 요소를 수평으로 배치 */
+    display: flex;
     height: 100vh; /* 컨테이너를 창의 높이와 동일하게 설정 */
 }
 
-.left, .center, .right {
-    flex: 1; /* 각 열이 동일한 크기를 가지도록 설정 */
-    box-sizing: border-box; /* 요소의 너비와 높이에 padding과 border를 포함시킴 */
+.left, .right {
+    flex: 1; /* left와 right의 너비를 동일하게 설정 */
+    box-sizing: border-box;
 }
 
+.center {
+    flex: 0 0 auto;
+}
 header {
     margin-bottom: 40px;
 }
@@ -85,7 +87,7 @@ html.js-focus-visible ._3ASDR:not(.focus-visible):focus{outline:none;}
 [class^="_"],[class*=" _"]{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
 ._check_12:before{content:"\e958";}
 ._chevron_right_18:before{content:"\e969";}
-.css-tbdbun{padding-top:40px;width:calc(100% - 30px);margin:auto;}
+
 .css-5bso4y{width:100%;margin:0 auto;padding:60px 0;}
 @media (min-width: 768px){
 .css-5bso4y{width:360px;}
