@@ -1,6 +1,68 @@
 /* contents 영역  CSS*/
 
 /* 전체 Contents 묶기 */
+body, html {
+  line-height: 1;
+  font-family: "Pretendard Variable", "Noto Sans KR", "Apple SD Gothic Neo", "맑은 고딕", "Malgun Gothic", sans-serif;
+  font-size: 13px;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+input {
+  font-style: ;
+  font-variant-ligatures: ;
+  font-variant-caps: ;
+  font-variant-numeric: ;
+  font-variant-east-asian: ;
+  font-variant-alternates: ;
+  font-variant-position: ;
+  font-weight: ;
+  font-stretch: ;
+  font-size: ;
+  font-family: ;
+  font-optical-sizing: ;
+  font-kerning: ;
+  font-feature-settings: ;
+  font-variation-settings: ;
+  text-rendering: auto;
+  color: fieldtext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  background-color: field;
+  margin: 0em;
+  padding: 1px 0px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+  padding-block: 1px;
+  padding-inline: 2px;
+}
+
+input[type="checkbox" i] {
+  background-color: initial;
+  cursor: default;
+  appearance: auto;
+  box-sizing: border-box;
+  margin: 3px 3px 3px 4px;
+  padding: initial;
+  border: initial;
+}
+
+
 .content-wrap {
   display: flex;
   flex: 1 1 auto;
@@ -489,16 +551,17 @@ scroll-snap-align: start;
 }
 
 .css-1e8cnk2 {
-display: inline-block;
-position: relative;
-height: 32px;
-border-radius: 16px;
-padding-left: 12px;
-padding-right: 12px;
-line-height: 0;
-color: rgb(255, 255, 255);
-background-color: rgb(47, 52, 56);
-cursor: pointer;
+  display: inline-block;
+  position: relative;
+  height: 32px;
+  border-radius: 16px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 10px;
+  line-height: 0;
+  color: rgb(255, 255, 255);
+  background-color: rgb(47, 52, 56);
+  cursor: pointer;
 }
 
 .css-ebd3ti {
@@ -525,6 +588,7 @@ height: 32px;
 border-radius: 16px;
 padding-left: 12px;
 padding-right: 12px;
+padding-top: 10px;
 line-height: 0;
 color: rgb(47, 52, 56);
 border: 1px solid rgb(218, 221, 224);
@@ -706,6 +770,7 @@ li {
   margin: 0px;
   width: 100%;
 }
+
 
 .css-7yo18d {
   margin: 0px auto;
@@ -950,4 +1015,12 @@ textarea {
 
 .css-7y30bf {
   height: 16px;
+}
+
+.css-7yo18d {
+  margin: 0px auto;
+  width: 100%;
+  background-color: rgb(235, 237, 228);
+  overflow: hidden;
+  height: 96px;
 }
